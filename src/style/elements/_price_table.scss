@@ -1,0 +1,122 @@
+.container_price {
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #F6F6F6;
+  padding-top: 30px;
+  margin-bottom: 20px;
+
+  .container_price2 {
+    margin-top: 100px;
+
+    .show_more_btn_big {
+      border-radius: 4px;
+      background-color: #1D3865;
+      border: none;
+      color: #FFFFFF!important;
+      text-align: center;
+      font-size: 15px;
+      height: 60px;
+      transition: all 0.5s;
+      width: 100% !important;
+
+      span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .showMore:after {
+        content: '\27F1'!important;
+        position: absolute;
+        opacity: 0;
+        top: 20px;
+        left: 35px;
+        transition: 0.5s;
+        font-size: 20px;
+      }
+
+      .showLess:after {
+        content: '\27F0'!important;
+        position: absolute;
+        opacity: 0;
+        top: -20px;
+        left: 35px;
+        transition: 0.5s;
+        font-size: 20px;
+      }
+
+      &:hover {
+        background-color: #1366d6;
+      }
+
+      &:hover .showMore:after {
+        opacity: 1;
+        bottom: 0;
+        top: 13px;
+      }
+
+      &:hover .showLess:after {
+        opacity: 1;
+        bottom: 0;
+        top: -18px;
+      }
+    }
+  }
+}
+
+.container_phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+
+  .viber {
+    width: 22px;
+    height: 22px;
+}
+
+.phone_info {
+  display: flex;
+  align-items: center;
+}
+
+.phone_icons {
+  display: flex;
+  img {
+    margin-right: 15px;
+
+  }
+}
+
+.whatsApp {
+  width: 24px;
+  height: 24px;
+}
+
+}
+
+.table-price {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+
+  th {
+    background-color: white;
+    text-align: left;
+    color: #808080;
+  }
+
+  th,td {
+    padding: 12px 30px;
+  }
+
+  td {
+    color: #000;
+    font-weight: 600;
+  }
+}
+
+.large-width {
+  width: 300px;
+}

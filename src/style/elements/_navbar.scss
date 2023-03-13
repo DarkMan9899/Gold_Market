@@ -1,0 +1,166 @@
+.products_manu-content {
+  position: relative;
+  padding: 0 40px;
+  top: 80px;
+  background-color: #FFFFFF;
+}
+
+.products_manu {
+  font-size: 14px;
+  height: 75px;
+}
+
+.navbar {
+  .navbar_ul {
+    gap: 24px;
+
+    li:first-child {
+      padding: 20px 0;
+    }
+      img {
+        width: 20px;
+        height: 20px;
+      }
+  }
+
+  li:hover {
+    //background-color: rgb(138, 133, 108);
+  }
+
+}
+
+.searching {
+  position: relative;
+}
+
+  .searching-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.switch {
+  width: 70px;
+}
+
+//navbar 2
+.navbar2 {
+  height: 420px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.gold-jewelry {
+  margin-right: 183px;
+
+    a:link, a:visited {
+      text-decoration: none;
+      display: block;
+      padding: 5px 15px;
+      color: black;
+
+      &:hover {
+
+          background-color: #1D3865;
+          color: gold;
+
+      }
+
+    }
+    
+// margin-top: 15px;
+    li:first-child {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  }
+
+.openning-navbar {
+  border-top: 1px solid #1D3865;
+  position: absolute;
+  padding: 30px 50px;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+
+  ul {
+    width: 184px;
+    margin-right: 54px;
+  }
+
+  .presentImg {
+    width: 488px!important;
+    height: 300px!important;
+  }
+}
+
+.search {
+  gap:10px
+
+}
+
+.search_modal_open{
+  padding: 30px;
+  background-color: white;
+  position: absolute;
+  top: -245px;
+  left: -8px;
+  width: 700px;
+  height: 300px;
+  z-index: 2;
+    
+    input{
+      width: 100%;
+      background-color: #F7F7F7;
+      height: 60px;
+      padding: 0 30px;
+      border: 1px solid #C5C5C5
+    }
+  
+    button{
+      left: -100px;
+      border-radius: 2px;
+      &:hover {
+        background-color: #1D3865;
+        color: gold;
+      }
+    }
+
+    .searching-icon{
+      margin-left: -60px;
+    }
+
+    .searching_block_text{
+      margin-top: 75px;
+      img{
+        width: 24px;
+        height: 24px;
+        margin-bottom: 20px;
+
+      }
+    }
+
+    .search_close_btn {
+      position: absolute;
+      top: calc((100% - 60px) / 2); 
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: none;
+      background-color: #FFFFFF;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+.banner_sell_with_us {
+  background-image: url("../img/banner_sell.png");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+  margin-top: 50px;
+
+  .banner_sell_with_us_text {
+
+    h3 {
+      color: #FFFFFF;
+    }
+
+    width: 425px;
+    top: 200px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  button {
+    margin-top: 30px;
+    background-color: #CCA653;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+
+    &:hover {
+      background-color: #1366d6;
+    }
+  }
+}
